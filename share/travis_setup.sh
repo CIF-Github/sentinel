@@ -4,6 +4,6 @@ set -evx
 mkdir ~/.dashcore
 
 # safety check
-if [ ! -f ~/.dashcore/.dash.conf ]; then
-  cp share/dash.conf.example ~/.dashcore/dash.conf
+if [ ! -f ~/.cifcore/.cif.conf ]; then
+  cp share/cif.conf.example ~/.cifcore/cif.conf
 fi
